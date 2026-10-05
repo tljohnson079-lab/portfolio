@@ -1,0 +1,1 @@
+A recruiter-ready project portfolio for documenting labs, penetration tests, cloud builds, scripts, detection engineering, homelabs, and IT infrastructure. Each project becomes a structured case study—not just a link to a repository.
