@@ -54,10 +54,6 @@ and recommendations offered to help mitigate against future attacks.</p><div cla
 <script>
 
 const seed=[
-{id:1,title:'Active Directory Security Lab',category:'Cybersecurity',summary:'Built an enterprise-style AD lab and documented enumeration, privilege escalation paths, hardening opportunities, and defensive controls.',skills:['Active Directory','Windows Server','PowerShell','BloodHound'],impact:10,evidence:7,date:'2026-10-03',url:'#',featured:true},
-{id:2,title:'Web Application Penetration Test',category:'Cybersecurity',summary:'Performed a scoped web application assessment covering reconnaissance, authentication, input validation, access control, and remediation reporting.',skills:['Burp Suite','OWASP','Linux','Pentesting'],impact:9,evidence:8,date:'2026-10-01',url:'#',featured:true},
-{id:3,title:'SOC Detection Engineering Lab',category:'Cybersecurity',summary:'Created simulated attack telemetry and detection rules to investigate suspicious PowerShell, authentication anomalies, and lateral movement.',skills:['SIEM','Detection Engineering','Windows','KQL'],impact:8,evidence:5,date:'2026-09-20',url:'#',featured:false},
-{id:4,title:'Automated IT Asset Inventory',category:'Automation',summary:'Developed an automation workflow that inventories hosts, software, patch state, and ownership into a searchable operational report.',skills:['Python','PowerShell','Automation','Asset Management'],impact:8,evidence:3,date:'2026-09-12',url:'#',featured:false}
 ];
 let projects=JSON.parse(localStorage.getItem('cyberforge-projects')||'null')||seed; let active='All';
 function save(){localStorage.setItem('cyberforge-projects',JSON.stringify(projects))}
